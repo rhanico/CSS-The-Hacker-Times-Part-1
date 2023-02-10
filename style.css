@@ -1,39 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
 html,
-body{
-    background-color: #d2d0d0;
-    font-family: source sans pro;
-    text-align: center;
-    padding: 50px 100px 50px 100px;
-    
+body {
+    background-color:#eee;
+    padding:50px 100px 50px 100px;
 }
-.newspaper-container{
-background-color: white;
-padding: 20px;
-border-radius: 10px;
-box-shadow:  3px #ddd;
+
+.newspaper-container {
+    background-color: white;
+    border-radius: 10px;
+    width: 800px;
+    padding: 2em;
+
 
 }
 
-.newspaper-container
 .date {
     text-align: left;
-
+    font-family: Source Sans Pro;
+    font-size: 1em;
 }
+
 h1 {
     text-align: center;
-    font-family: abril fatface;
+    font-family: Abril Fatface;
 
 }
 
-a {
+ nav ul {
     text-align: center;
+    margin: 0;
+  
 }
 
-nav ul li {
-    list-style-type:none;
+ nav ul li {
     display: inline-block;
-
+    font-family: Source Sans Pro;
 }
 
 li a {
@@ -41,59 +43,56 @@ li a {
     margin-left: 10px;
     margin-right: 10px;
     color: #777;
-
 }
 
-
-main h2 {
+h2 {
     text-align: left;
-
+    font-family: Roboto slab;
+    margin-bottom:  0;
 }
-h2{
-    font-family: roboto slab;
-    padding-bottom: 0px;
-    margin-bottom: 2px;
 
-}
-main h5 {
+h5 {
     text-align: left;
-}
-h5{
-    font-family: abril fatface;
-    color:#dd3232;
+    font-family: Abril fatface;
+    color: #dd3232;
     margin-top: 5px;
 }
 
-main img {
+ main img{
     width: 100%;
-    height: auto;
-
+    height:auto;
 }
 
- main p {
-    text-align: center;
-    font-family: source sans pro;
-    color: #777;;
-    font-size: medium;
- }
-
- .h4 {
-    display: inline-block;
- }
-h4 {
-    text-align: left;
-    font-family: roboto slab;
+main p{ 
+    text-align: justify;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    color: #777;
 }
 
 .more-articles {
-    display: flex;
-    justify-content:space-around
-    padding: 10%;
-
-
+    margin: 2em;
+    text-align: center;
 }
-section img{
+
+.more-articles section{
+    display: inline-block;
+    width: 50%;
+}
+
+h4{ 
+    font-family: Roboto slab;
+    text-align: left;
+}
+
+.more-articles p {
+    text-align: justify;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    color: #777;
+}
+
+.more-articles img{
     width: 100%;
-    height: auto;
-    
 }
+
