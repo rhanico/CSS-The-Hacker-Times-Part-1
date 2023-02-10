@@ -73,11 +73,14 @@ main p{
 .more-articles {
     margin: 2em;
     text-align: center;
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    align-items:center;
 }
 
 .more-articles section{
     display: inline-block;
-    width: 50%;
+    width: 90%;
 }
 
 h4{ 
@@ -94,5 +97,27 @@ h4{
 
 .more-articles img{
     width: 100%;
+    margin: top 5px;
+}
+.eggs {
+    filter: grayscale();
 }
 
+
+.footer ul {
+    text-align: center;
+    margin: 0;
+  
+}
+
+ .footer ul li {
+    display: inline-block;
+    font-family: Source Sans Pro;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.footer li a {
+    text-decoration: none;  
+    color: #777;
+}
